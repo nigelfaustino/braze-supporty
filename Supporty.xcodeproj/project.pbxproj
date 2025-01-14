@@ -6,66 +6,73 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		0B1B58292D2DA53700F18D51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B1B580E2D2DA53500F18D51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B1B58152D2DA53500F18D51;
-			remoteInfo = Supporty;
-		};
-		0B1B58332D2DA53700F18D51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B1B580E2D2DA53500F18D51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0B1B58152D2DA53500F18D51;
-			remoteInfo = Supporty;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		0B1B58492D2DF02100F18D51 /* BrazeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B58482D2DF02100F18D51 /* BrazeKit */; };
+		0B1B584B2D2DF02100F18D51 /* BrazeLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B584A2D2DF02100F18D51 /* BrazeLocation */; };
+		0B1B584D2D2DF02100F18D51 /* BrazeNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B584C2D2DF02100F18D51 /* BrazeNotificationService */; };
+		0B1B584F2D2DF02100F18D51 /* BrazePushStory in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B584E2D2DF02100F18D51 /* BrazePushStory */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B137BD82D36BF3700822F5B /* BrokenDirectOpens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenDirectOpens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B137C0C2D36CD9C00822F5B /* BrokenPushRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrokenPushRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B137C222D36DB0400822F5B /* MissingUserNotificationCenterDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissingUserNotificationCenterDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B1B58162D2DA53500F18D51 /* Supporty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supporty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B1B58282D2DA53700F18D51 /* SupportyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupportyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B1B58322D2DA53700F18D51 /* SupportyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupportyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		0B137BD92D36BF3700822F5B /* BrokenDirectOpens */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrokenDirectOpens;
+			sourceTree = "<group>";
+		};
+		0B137C0D2D36CD9C00822F5B /* BrokenPushRegistration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BrokenPushRegistration;
+			sourceTree = "<group>";
+		};
+		0B137C232D36DB0400822F5B /* MissingUserNotificationCenterDelegate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MissingUserNotificationCenterDelegate;
+			sourceTree = "<group>";
+		};
 		0B1B58182D2DA53500F18D51 /* Supporty */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Supporty;
 			sourceTree = "<group>";
 		};
-		0B1B582B2D2DA53700F18D51 /* SupportyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SupportyTests;
-			sourceTree = "<group>";
-		};
-		0B1B58352D2DA53700F18D51 /* SupportyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SupportyUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B137BD52D36BF3700822F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C092D36CD9C00822F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C1F2D36DB0400822F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B1B58132D2DA53500F18D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B58252D2DA53700F18D51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B582F2D2DA53700F18D51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				0B1B584B2D2DF02100F18D51 /* BrazeLocation in Frameworks */,
+				0B1B584D2D2DF02100F18D51 /* BrazeNotificationService in Frameworks */,
+				0B1B58492D2DF02100F18D51 /* BrazeKit in Frameworks */,
+				0B1B584F2D2DF02100F18D51 /* BrazePushStory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +83,9 @@
 			isa = PBXGroup;
 			children = (
 				0B1B58182D2DA53500F18D51 /* Supporty */,
-				0B1B582B2D2DA53700F18D51 /* SupportyTests */,
-				0B1B58352D2DA53700F18D51 /* SupportyUITests */,
+				0B137BD92D36BF3700822F5B /* BrokenDirectOpens */,
+				0B137C0D2D36CD9C00822F5B /* BrokenPushRegistration */,
+				0B137C232D36DB0400822F5B /* MissingUserNotificationCenterDelegate */,
 				0B1B58172D2DA53500F18D51 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				0B1B58162D2DA53500F18D51 /* Supporty.app */,
-				0B1B58282D2DA53700F18D51 /* SupportyTests.xctest */,
-				0B1B58322D2DA53700F18D51 /* SupportyUITests.xctest */,
+				0B137BD82D36BF3700822F5B /* BrokenDirectOpens.app */,
+				0B137C0C2D36CD9C00822F5B /* BrokenPushRegistration.app */,
+				0B137C222D36DB0400822F5B /* MissingUserNotificationCenterDelegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +104,72 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0B137BD72D36BF3700822F5B /* BrokenDirectOpens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B137C012D36BF3900822F5B /* Build configuration list for PBXNativeTarget "BrokenDirectOpens" */;
+			buildPhases = (
+				0B137BD42D36BF3700822F5B /* Sources */,
+				0B137BD52D36BF3700822F5B /* Frameworks */,
+				0B137BD62D36BF3700822F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B137BD92D36BF3700822F5B /* BrokenDirectOpens */,
+			);
+			name = BrokenDirectOpens;
+			packageProductDependencies = (
+			);
+			productName = BrokenDirectOpens;
+			productReference = 0B137BD82D36BF3700822F5B /* BrokenDirectOpens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B137C0B2D36CD9C00822F5B /* BrokenPushRegistration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B137C192D36CD9D00822F5B /* Build configuration list for PBXNativeTarget "BrokenPushRegistration" */;
+			buildPhases = (
+				0B137C082D36CD9C00822F5B /* Sources */,
+				0B137C092D36CD9C00822F5B /* Frameworks */,
+				0B137C0A2D36CD9C00822F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B137C0D2D36CD9C00822F5B /* BrokenPushRegistration */,
+			);
+			name = BrokenPushRegistration;
+			packageProductDependencies = (
+			);
+			productName = BrokenPushRegistration;
+			productReference = 0B137C0C2D36CD9C00822F5B /* BrokenPushRegistration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B137C212D36DB0400822F5B /* MissingUserNotificationCenterDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B137C2F2D36DB0500822F5B /* Build configuration list for PBXNativeTarget "MissingUserNotificationCenterDelegate" */;
+			buildPhases = (
+				0B137C1E2D36DB0400822F5B /* Sources */,
+				0B137C1F2D36DB0400822F5B /* Frameworks */,
+				0B137C202D36DB0400822F5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0B137C232D36DB0400822F5B /* MissingUserNotificationCenterDelegate */,
+			);
+			name = MissingUserNotificationCenterDelegate;
+			packageProductDependencies = (
+			);
+			productName = MissingUserNotificationCenterDelegate;
+			productReference = 0B137C222D36DB0400822F5B /* MissingUserNotificationCenterDelegate.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0B1B58152D2DA53500F18D51 /* Supporty */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B1B583C2D2DA53700F18D51 /* Build configuration list for PBXNativeTarget "Supporty" */;
@@ -112,56 +187,14 @@
 			);
 			name = Supporty;
 			packageProductDependencies = (
+				0B1B58482D2DF02100F18D51 /* BrazeKit */,
+				0B1B584A2D2DF02100F18D51 /* BrazeLocation */,
+				0B1B584C2D2DF02100F18D51 /* BrazeNotificationService */,
+				0B1B584E2D2DF02100F18D51 /* BrazePushStory */,
 			);
 			productName = Supporty;
 			productReference = 0B1B58162D2DA53500F18D51 /* Supporty.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0B1B58272D2DA53700F18D51 /* SupportyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B1B583F2D2DA53700F18D51 /* Build configuration list for PBXNativeTarget "SupportyTests" */;
-			buildPhases = (
-				0B1B58242D2DA53700F18D51 /* Sources */,
-				0B1B58252D2DA53700F18D51 /* Frameworks */,
-				0B1B58262D2DA53700F18D51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B1B582A2D2DA53700F18D51 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0B1B582B2D2DA53700F18D51 /* SupportyTests */,
-			);
-			name = SupportyTests;
-			packageProductDependencies = (
-			);
-			productName = SupportyTests;
-			productReference = 0B1B58282D2DA53700F18D51 /* SupportyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0B1B58312D2DA53700F18D51 /* SupportyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0B1B58422D2DA53700F18D51 /* Build configuration list for PBXNativeTarget "SupportyUITests" */;
-			buildPhases = (
-				0B1B582E2D2DA53700F18D51 /* Sources */,
-				0B1B582F2D2DA53700F18D51 /* Frameworks */,
-				0B1B58302D2DA53700F18D51 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B1B58342D2DA53700F18D51 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0B1B58352D2DA53700F18D51 /* SupportyUITests */,
-			);
-			name = SupportyUITests;
-			packageProductDependencies = (
-			);
-			productName = SupportyUITests;
-			productReference = 0B1B58322D2DA53700F18D51 /* SupportyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -173,16 +206,17 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					0B137BD72D36BF3700822F5B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0B137C0B2D36CD9C00822F5B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0B137C212D36DB0400822F5B = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					0B1B58152D2DA53500F18D51 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					0B1B58272D2DA53700F18D51 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 0B1B58152D2DA53500F18D51;
-					};
-					0B1B58312D2DA53700F18D51 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 0B1B58152D2DA53500F18D51;
 					};
 				};
 			};
@@ -195,34 +229,45 @@
 			);
 			mainGroup = 0B1B580D2D2DA53500F18D51;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0B1B58172D2DA53500F18D51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0B1B58152D2DA53500F18D51 /* Supporty */,
-				0B1B58272D2DA53700F18D51 /* SupportyTests */,
-				0B1B58312D2DA53700F18D51 /* SupportyUITests */,
+				0B137BD72D36BF3700822F5B /* BrokenDirectOpens */,
+				0B137C0B2D36CD9C00822F5B /* BrokenPushRegistration */,
+				0B137C212D36DB0400822F5B /* MissingUserNotificationCenterDelegate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0B137BD62D36BF3700822F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C0A2D36CD9C00822F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C202D36DB0400822F5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B1B58142D2DA53500F18D51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B58262D2DA53700F18D51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B58302D2DA53700F18D51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +277,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B137BD42D36BF3700822F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C082D36CD9C00822F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B137C1E2D36DB0400822F5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B1B58122D2DA53500F18D51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B58242D2DA53700F18D51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0B1B582E2D2DA53700F18D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,20 +307,185 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		0B1B582A2D2DA53700F18D51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B1B58152D2DA53500F18D51 /* Supporty */;
-			targetProxy = 0B1B58292D2DA53700F18D51 /* PBXContainerItemProxy */;
-		};
-		0B1B58342D2DA53700F18D51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0B1B58152D2DA53500F18D51 /* Supporty */;
-			targetProxy = 0B1B58332D2DA53700F18D51 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		0B137BFB2D36BF3900822F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BrokenDirectOpens/BrokenDirectOpens.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenDirectOpens/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.BrokenDirectOpens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B137BFC2D36BF3900822F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BrokenDirectOpens/BrokenDirectOpens.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenDirectOpens/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.BrokenDirectOpens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B137C1A2D36CD9D00822F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenPushRegistration/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.BrokenPushRegistration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B137C1B2D36CD9D00822F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrokenPushRegistration/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.BrokenPushRegistration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B137C302D36DB0500822F5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MissingUserNotificationCenterDelegate/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.MissingUserNotificationCenterDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B137C312D36DB0500822F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MissingUserNotificationCenterDelegate/Preview Content\"";
+				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = braze.MissingUserNotificationCenterDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0B1B583A2D2DA53700F18D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,6 +610,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Supporty/Supporty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Supporty/Preview Content\"";
@@ -404,6 +622,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -422,6 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Supporty/Supporty.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Supporty/Preview Content\"";
@@ -433,6 +653,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,81 +667,36 @@
 			};
 			name = Release;
 		};
-		0B1B58402D2DA53700F18D51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = braze.SupportyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supporty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Supporty";
-			};
-			name = Debug;
-		};
-		0B1B58412D2DA53700F18D51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = braze.SupportyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supporty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Supporty";
-			};
-			name = Release;
-		};
-		0B1B58432D2DA53700F18D51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = braze.SupportyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Supporty;
-			};
-			name = Debug;
-		};
-		0B1B58442D2DA53700F18D51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5GLZKGNWQ3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = braze.SupportyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Supporty;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B137C012D36BF3900822F5B /* Build configuration list for PBXNativeTarget "BrokenDirectOpens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B137BFB2D36BF3900822F5B /* Debug */,
+				0B137BFC2D36BF3900822F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B137C192D36CD9D00822F5B /* Build configuration list for PBXNativeTarget "BrokenPushRegistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B137C1A2D36CD9D00822F5B /* Debug */,
+				0B137C1B2D36CD9D00822F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B137C2F2D36DB0500822F5B /* Build configuration list for PBXNativeTarget "MissingUserNotificationCenterDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B137C302D36DB0500822F5B /* Debug */,
+				0B137C312D36DB0500822F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0B1B58112D2DA53500F18D51 /* Build configuration list for PBXProject "Supporty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -539,25 +715,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B1B583F2D2DA53700F18D51 /* Build configuration list for PBXNativeTarget "SupportyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B1B58402D2DA53700F18D51 /* Debug */,
-				0B1B58412D2DA53700F18D51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0B1B58422D2DA53700F18D51 /* Build configuration list for PBXNativeTarget "SupportyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B1B58432D2DA53700F18D51 /* Debug */,
-				0B1B58442D2DA53700F18D51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braze-inc/braze-swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B1B58482D2DF02100F18D51 /* BrazeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeKit;
+		};
+		0B1B584A2D2DF02100F18D51 /* BrazeLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeLocation;
+		};
+		0B1B584C2D2DF02100F18D51 /* BrazeNotificationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeNotificationService;
+		};
+		0B1B584E2D2DF02100F18D51 /* BrazePushStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazePushStory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B1B580E2D2DA53500F18D51 /* Project object */;
 }

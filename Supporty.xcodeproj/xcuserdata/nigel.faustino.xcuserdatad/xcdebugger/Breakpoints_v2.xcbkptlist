@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CA66FCD1-F649-431F-8C41-CA7C7E513F56"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5390069-D4AC-477F-ACC0-0803EC4DED08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supporty/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FC31031-D93D-4AB9-AB6A-02A3E8D7EB87"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supporty/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E96FD645-2CEA-48F3-A5EB-C8B71AE34D01"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Supporty/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E96FD645-2CEA-48F3-A5EB-C8B71AE34D01 - 242c1c88b1683af0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Supporty.AppDelegate.application(_: __C.UIApplication, didFinishLaunchingWithOptions: Swift.Optional&lt;Swift.Dictionary&lt;__C.UIApplicationLaunchOptionsKey, Any&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "Supporty.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nigel.faustino/Documents/braze/Supporty/Supporty/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "E96FD645-2CEA-48F3-A5EB-C8B71AE34D01 - 9a9affe63a9599dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Supporty.AppDelegate.application(_: __C.UIApplication, didFinishLaunchingWithOptions: Swift.Optional&lt;Swift.Dictionary&lt;__C.UIApplicationLaunchOptionsKey, Any&gt;&gt;) -&gt; Swift.Bool"
+                  moduleName = "Supporty.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nigel.faustino/Documents/braze/Supporty/Supporty/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
