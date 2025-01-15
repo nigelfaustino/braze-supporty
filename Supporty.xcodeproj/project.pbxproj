@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B137C532D37091300822F5B /* BrazeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C522D37091300822F5B /* BrazeKit */; };
+		0B137C552D37091300822F5B /* BrazeNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C542D37091300822F5B /* BrazeNotificationService */; };
+		0B137C572D37091300822F5B /* BrazePushStory in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C562D37091300822F5B /* BrazePushStory */; };
+		0B137C592D370A2E00822F5B /* BrazeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C582D370A2E00822F5B /* BrazeKit */; };
+		0B137C5B2D370A2E00822F5B /* BrazeNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C5A2D370A2E00822F5B /* BrazeNotificationService */; };
+		0B137C5D2D370A2E00822F5B /* BrazePushStory in Frameworks */ = {isa = PBXBuildFile; productRef = 0B137C5C2D370A2E00822F5B /* BrazePushStory */; };
 		0B1B58492D2DF02100F18D51 /* BrazeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B58482D2DF02100F18D51 /* BrazeKit */; };
 		0B1B584B2D2DF02100F18D51 /* BrazeLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B584A2D2DF02100F18D51 /* BrazeLocation */; };
 		0B1B584D2D2DF02100F18D51 /* BrazeNotificationService in Frameworks */ = {isa = PBXBuildFile; productRef = 0B1B584C2D2DF02100F18D51 /* BrazeNotificationService */; };
@@ -48,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B137C5B2D370A2E00822F5B /* BrazeNotificationService in Frameworks */,
+				0B137C5D2D370A2E00822F5B /* BrazePushStory in Frameworks */,
+				0B137C592D370A2E00822F5B /* BrazeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B137C552D37091300822F5B /* BrazeNotificationService in Frameworks */,
+				0B137C572D37091300822F5B /* BrazePushStory in Frameworks */,
+				0B137C532D37091300822F5B /* BrazeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +133,9 @@
 			);
 			name = BrokenDirectOpens;
 			packageProductDependencies = (
+				0B137C582D370A2E00822F5B /* BrazeKit */,
+				0B137C5A2D370A2E00822F5B /* BrazeNotificationService */,
+				0B137C5C2D370A2E00822F5B /* BrazePushStory */,
 			);
 			productName = BrokenDirectOpens;
 			productReference = 0B137BD82D36BF3700822F5B /* BrokenDirectOpens.app */;
@@ -165,6 +180,9 @@
 			);
 			name = MissingUserNotificationCenterDelegate;
 			packageProductDependencies = (
+				0B137C522D37091300822F5B /* BrazeKit */,
+				0B137C542D37091300822F5B /* BrazeNotificationService */,
+				0B137C562D37091300822F5B /* BrazePushStory */,
 			);
 			productName = MissingUserNotificationCenterDelegate;
 			productReference = 0B137C222D36DB0400822F5B /* MissingUserNotificationCenterDelegate.app */;
@@ -325,7 +343,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -386,6 +404,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +434,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,6 +464,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +494,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,7 +644,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -653,7 +675,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -729,6 +751,36 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0B137C522D37091300822F5B /* BrazeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeKit;
+		};
+		0B137C542D37091300822F5B /* BrazeNotificationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeNotificationService;
+		};
+		0B137C562D37091300822F5B /* BrazePushStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazePushStory;
+		};
+		0B137C582D370A2E00822F5B /* BrazeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeKit;
+		};
+		0B137C5A2D370A2E00822F5B /* BrazeNotificationService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazeNotificationService;
+		};
+		0B137C5C2D370A2E00822F5B /* BrazePushStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;
+			productName = BrazePushStory;
+		};
 		0B1B58482D2DF02100F18D51 /* BrazeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0B1B58472D2DF02100F18D51 /* XCRemoteSwiftPackageReference "braze-swift-sdk" */;

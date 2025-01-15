@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 
+@available(iOS 17, *)
 @main
 struct MissingUserNotificationCenterDelegateApp: App {
   @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate

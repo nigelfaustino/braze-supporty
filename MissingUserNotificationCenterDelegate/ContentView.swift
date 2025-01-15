@@ -8,35 +8,40 @@
 import SwiftUI
 import SwiftData
 
+@available(iOS 17.0, *)
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
     var body: some View {
+      if #available(iOS 16.0, *) {
         NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+          List {
+            ForEach(items) { item in
+              NavigationLink {
+                Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+              } label: {
+                Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+              }
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
+            .onDelete(perform: deleteItems)
+          }
+          .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+              EditButton()
             }
+            ToolbarItem {
+              Button(action: addItem) {
+                Label("Add Item", systemImage: "plus")
+              }
+            }
+          }
         } detail: {
-            Text("Select an item")
+          Text("Select an item")
         }
+      } else {
+        // Fallback on earlier versions
+      }
     }
 
     private func addItem() {
@@ -56,6 +61,10 @@ struct ContentView: View {
 }
 
 #Preview {
+  if #available(iOS 17.0, *) {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+      .modelContainer(for: Item.self, inMemory: true)
+  } else {
+    // Fallback on earlier versions
+  }
 }
