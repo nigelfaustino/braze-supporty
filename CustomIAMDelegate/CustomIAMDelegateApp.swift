@@ -1,16 +1,17 @@
 //
-//  SupportyApp.swift
-//  Supporty
+//  CustomIAMDelegateApp.swift
+//  CustomIAMDelegate
 //
-//  Created by Nigel Faustino on 1/7/25.
+//  Created by Nigel Faustino on 1/15/25.
 //
 
 import SwiftUI
 import SwiftData
 
 @main
-struct SupportyApp: App {
+struct CustomIAMDelegateApp: App {
   @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
   var sharedModelContainer: ModelContainer = {
       let schema = Schema([
           Item.self,
