@@ -12,7 +12,7 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
   var braze: Braze? = nil
     
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    let configuration = Braze.Configuration(apiKey: "e5ea2273-dd8e-4213-8185-060d6125da35", endpoint: "sondheim.braze.com")
+    let configuration = Braze.Configuration(apiKey: "", endpoint: "")
     configuration.logger.level = .debug
     let braze = Braze(configuration: configuration)
     self.braze = braze
